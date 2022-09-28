@@ -1,28 +1,12 @@
-let space = " ";
-let spaces = [];
-let cant = 0;
-let cant2 = 0;
-let steps = [''];
-let stepsright = [''];
-let bricks = '#';
+// Con Función Repeat y poco código:
 
 function Pyramid(height){
-    var altura = parseInt(height);
-    for(var x = 0; x < altura; x++){
-        cant = cant + 1;
-        stepsright = bricks.repeat(cant)
-        console.log(stepsright);
+    let spaces = height;
+    for(let i=0; i<=height; i++){
+        console.log(' '.repeat(spaces--) + '#'.repeat(i) + '  ' + '' + '#'.repeat(i));
     }
-    cant = altura;
-    for(var n = altura; n > 0; n--){
-        cant = cant - 1;
-        cant2 += 1;
-        steps = bricks.repeat(cant2);
-        for(var j = cant; j > 0; j-- ){
-            spaces[n] = spaces[n] + space;
-        }
-        console.log(spaces[n] + steps);
-    }
+    console.log('*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.')
 }
 
-Pyramid(10);
+Pyramid(8);
+Pyramid(2);

@@ -1,4 +1,3 @@
-
 /*
 Consigna:
 Armar el algoritmo para un cajero de banco. Este posee billetes de: 50, 20, 10, 5. Con esto el cajero debe:
