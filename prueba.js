@@ -1,17 +1,42 @@
-let space = " a";
+let space = " ";
 let spaces = [];
 let cant = 0;
+let cant2 = 0;
 let steps = [''];
+let stepsright = [''];
 let bricks = '#';
 
-function PyramidInv(altura){
-    for(var x = altura; x > 0; x--){
+
+function Pyramid(height){
+    var altura = parseInt(height);
+    for(var x = 0; x < altura; x++){
         cant = cant + 1;
+        stepsright = bricks.repeat(cant)
+        console.log(stepsright);
+    }
+    cant = altura;
+    for(var n = altura; n > 0; n--){
+        cant = cant - 1;
+        cant2 += 1;
+        steps = bricks.repeat(cant2);
+        for(var j = cant; j > 0; j-- ){
+            spaces[n] = spaces[n] + space;
+        }
+        console.log(spaces[n] + steps);
+    }
+}
+Pyramid(8);
+console.log('........................................')
+console.log('........................................')
+function PyramidInv(altura){
+    cant = altura;
+    for(var n = altura; n > 0; n--){
+        cant = cant - 1;
         steps = bricks.repeat(cant)
         for(var j = cant; j > 0; j-- ){
-            spaces[x] = spaces[x] + space;
+            spaces[n] = spaces[n] + space;
         }
-        console.log(steps + spaces[x]);
+        console.log(steps + spaces[n]);
     }
 }
 console.log('........................................')
