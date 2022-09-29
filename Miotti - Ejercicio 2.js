@@ -1,19 +1,4 @@
-/*
-Consigna:
-Armar el algoritmo para un cajero de banco. Este posee billetes de: 50, 20, 10, 5. Con esto el cajero debe:
-- Aceptar un monto de entrada (int) que representa el monto a retirar.
-- Calcular y mostrar billete de cada monto entrega en total.
-
-$ python cajero.py
-Monto a retirar: 221
-
-Cantidad de billetes de 50: 4
-Cantidad de billetes de 20: 1
-Cantidad de billetes de 10: 0
-Cantidad de billetes de 5: 0
-Cantidad de billetes de 1: 1
-*/
-
+// EJERCICIO 2
 let money50 = 50;
 let money20 = 20;
 let money10 = 10;
