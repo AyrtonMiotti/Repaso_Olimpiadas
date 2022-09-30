@@ -39,29 +39,25 @@ El programa debe:
         Cantidad de billetes de 1: 1
 
 ## 3 - Cifrado
-    - 
 
-    Cifrado
-
-Consigna
-
-Diseñar un algoritmo que cifre un texto ingresado como input. El programa debe:
-
-• Tomar como argumento para inicar el programa la key con la cual va a cifrar.
-
-• Imprimir el resultado cifrado.
+   Diseñar un algoritmo que cifre un texto ingresado como input. El programa debe:
+ 
+ El programa debe:
+   - Tomar como argumento para inicar el programa la key con la cual va a cifrar.
+   - Imprimir el resultado cifrado.
 
 Para cifrar el texto se hará de la siguente manera:
 
-Abecedario Real
+         Abecedario Real                             Key
+   ABCDEFGHIJKLMNÑOPQRSTUVWXYZ         VWBFJHARZQMOESTCKIPGNDNXUYL
 
-Key
 
-VWBFJHARZQMOESTCKIPGNDNXUYL
+
+
 
 2
 
-ABCDEFGHIJKLMNÑOPQRSTUVWXYZ =
+ =
 
 2
 
