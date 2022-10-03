@@ -1,0 +1,136 @@
+:root{
+    /*General*/
+        --width-container: 40%;
+        --height-container: 70vh;
+
+    /*Login*/
+        --bg-L-color: radial-gradient(circle at 50% -20.71%, #badbff 0, #c2daff 6.25%, #c9d8ff 12.5%, #d0d6ff 18.75%, #d8d4ff 25%, #dfd2fe 31.25%, #e6d0fa 37.5%, #eccff6 43.75%, #f2cdf2 50%, #f7cced 56.25%, #fccbe8 62.5%, #ffcae2 68.75%, #ffc9dd 75%, #ffc9d7 81.25%, #ffc9d1 87.5%, #ffc9cc 93.75%, #ffcac6 100%);
+        --bg-L-form: rgba(255, 255, 255, 0.29);
+
+    /*Register*/
+        --bg-R-color: radial-gradient(circle at 50% -20.71%, #e1a35e 0, #d9a75a 6.25%, #cfab58 12.5%, #c5ae57 18.75%, #bbb258 25%, #b0b55b 31.25%, #a5b85f 37.5%, #99bb65 43.75%, #8cbd6c 50%, #7fbf74 56.25%, #71c17d 62.5%, #61c287 68.75%, #50c491 75%, #3bc59c 81.25%, #1ac5a7 87.5%, #00c6b3 93.75%, #00c6be 100%);
+}
+
+body{
+    margin: 0;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-image: var(--bg-L-color)
+}
+.loginForm{
+    height: 70vh;
+    width: var(--width-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.userGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 30%;
+    width: 60%;
+    justify-content: center;
+}
+.ISuser{
+    font-size: 25px;
+}
+#Iuser{
+    background: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+    height: 20%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.passGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 30%;
+    width: 60%;
+    justify-content: center;
+}
+.ISpass{
+    font-size: 25px;
+}
+#Ipasswor{
+    background: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+    height: 20%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#Btnlogin{
+    background-color: #18c0c0;
+    border-radius: 10px;
+    height: 10%;
+    font-size: 20px;
+    width: 40%;
+}
+/* FIN LOGIN  */
+
+/* REGISTRO DE USUARIOS */
+.register-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-image:  var(--bg-R-color);
+}
+
+.registerForm{
+    height: var(--height-container);
+    width: var(--width-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+}
+
+#Ruser{
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#Rpasswor{
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#RCpasswor{
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#BtnRegister{
+    background-color: #bc8ad8;
+    border-radius: 10px;
+    height: 6%;
+    width: 40%;
+}
