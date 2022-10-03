@@ -40,7 +40,7 @@ El programa debe:
 
 ## 3 - Cifrado
 
-   Diseñar un algoritmo que cifre un texto ingresado como input. El programa debe:
+   Diseñar un algoritmo que cifre un texto ingresado como input.
  
  El programa debe:
    - Tomar como argumento para inicar el programa la key con la cual va a cifrar.
