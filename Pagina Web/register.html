@@ -10,9 +10,18 @@
 <body>
     <div class="register-container">
         <form class="registerForm" action="" method="post">
-            <input type="text" name="user" id="Ruser">
-            <input type="password" name="password" id="Rpasswor">
-            <input type="password" name="password" id="RCpasswor">
+            <div class="GRuser">
+                <span class="RSuser">Ingrese el usuario: </span>
+                <input type="text" name="user" id="Ruser">
+            </div>
+            <div class="GRpass1">
+                <span class="RSpass">Ingrese la contraseña: </span>
+                <input type="password" name="password" id="Rpasswor">
+            </div>
+            <div class="Grpass2">
+                <span class="RSRpass">Repita la contraseña: </span>
+                <input type="password" name="password" id="RCpasswor">
+            </div>
             <input type="submit" value="Registrarse" id="BtnRegister">
         </form>
     </div>

@@ -3,7 +3,7 @@ const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: "RepasOl",
+    database: "",
 })
 
 connection.connect((error)=>{
@@ -14,3 +14,4 @@ connection.connect((error)=>{
     console.log("Conexion a la base de datos exitosa");
 });
 module.exports = connection;
+
